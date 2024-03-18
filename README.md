@@ -8,3 +8,5 @@ The results:
 - recall score: The model scored a recall score of 89% when predicting high risk loans and 100% for healthy loans. The recall measures the amount of false negatives. In this case, the model does basically a perfect job in not falsely categorizing healthy loans. However, there is a very minor chance of falsely categorizing a high-risked laon as healthy. For this use case, we would rather have it inversed, as we would rather categorize a loan as high risk and it be healthy versus we think it will be healthy and it is high risk. Again, it may be due to the limited amount of high-risk loans in our training dataset for the model to learn from.
 
 A summary: Overall, this model is a pretty good model. There is room for improvement when predicting if a loan is high-risk. As mentioned, we would rather categorize a loan as high risk and it be healthy versus we think it will be healthy and it is high risk. As such, I would suggest a company train the model with more high-risk loans within the training data before using this model.
+
+Reference: Week 20 Activities for code
